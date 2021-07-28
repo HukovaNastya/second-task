@@ -1,0 +1,151 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-transform-capitalize {
+  text-transform: capitalize;
+
+}
+.about__news {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.latest__news {
+  margin-top: 100px;
+}
+
+.latest__news-title {
+  margin-top: -50px;
+  margin-right: -70px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #4d4b4b;
+}
+
+.latest__news-about-animals{
+  max-width: 520px;
+  flex-wrap: wrap;
+}
+
+.latest__news-card {
+  margin-bottom: 20px;
+}
+
+.news-about-pet {
+  border-right: 1px solid #cdd1d0;
+}
+
+.news-about-wild-animals {
+  margin-left: 20px;
+}
+
+.news-about-pet-text {
+  margin-top: 10px;
+  max-width: 240px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.latest_news-editor {
+  max-width: 420px;
+  margin-left: 60px;
+}
+
+
+.latest_news-editor-title {
+  margin-top: -50px;
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #4d4b4b;
+}
+
+.news-editor-card {
+  width: 300px;
+  height: 110px;
+  align-items: center;
+  background-color: #cdd1d0;
+  margin-bottom: 10px;
+}
+
+.card-num {
+  padding-top: 10px;
+  width: 90px;
+  height: 110px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: #3271a8;
+  background-color: #cdd1d0;
+}
+
+.card-text {
+  max-width: 190px;
+  background-color: #cdd1d0;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img{
+  position: absolute;
+  top: 0;
+  width: 190px;
+  right: -100%;
+  transform: translateX(0%);
+  transition:   all 0.5s ease-out;
+}
+
+.card-img img{
+  width: 300px;
+  height: auto;
+}
+
+.news-editor-card:hover .card-img {
+  transform: translateX(-100%);
+}
+
+.news-editor-card:hover .card-num {
+  background-color: #3271a8;
+  color: #fff;
+}
