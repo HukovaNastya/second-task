@@ -102,18 +102,18 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .news-editor-card {
-  width: 300px;
+  width: 290px;
   height: 110px;
   align-items: center;
   background-color: #cdd1d0;
   margin-bottom: 10px;
+
 }
 
 .card-num {
   padding-top: 10px;
-  width: 90px;
+  width: 100px;
   height: 110px;
-  margin-right: 10px;
   text-align: center;
   font-size: 50px;
   color: #3271a8;
@@ -121,23 +121,26 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .card-text {
-  max-width: 190px;
+  max-width: 199px;
   background-color: #cdd1d0;
   position: relative;
   overflow: hidden;
+  height: 110px;
+  padding-top: 10px;
+  padding-right: 9px;
 }
 
 .card-img{
   position: absolute;
   top: 0;
-  width: 190px;
+  width: 100%;
   right: -100%;
   transform: translateX(0%);
-  transition:   all 0.5s ease-out;
+  transition:   all 0.3s ease-out;
 }
 
 .card-img img{
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
