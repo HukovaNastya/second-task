@@ -130,25 +130,25 @@ p, h1, h2, h3, h4, h5, h6 {
   padding-right: 9px;
 }
 
-.card-img{
+.card-img-hover{
   position: absolute;
   top: 0;
   width: 100%;
-  right: -100%;
-  transform: translateX(0%);
+  transform: translateX(200%);
   transition:   all 0.3s ease-out;
 }
 
-.card-img img{
+.card-img-hover img{
   width: 100%;
   height: auto;
 }
 
-.news-editor-card:hover .card-img {
-  transform: translateX(-100%);
+.news-editor-card:hover .card-img-hover{
+  transform: translateX(0%);
 }
 
 .news-editor-card:hover .card-num {
   background-color: #3271a8;
   color: #fff;
 }
+
